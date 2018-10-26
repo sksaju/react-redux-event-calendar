@@ -1,0 +1,68 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #f5f5f5;
+}
+.calendar-container {
+    width: 800px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.btn {
+    cursor: pointer;
+    border: 0px !important
+}
+.btn-control {
+    color: #fff !important;
+    background: #6992CA !important;
+}
+.btn-past {
+    color: #fff !important;
+    background: #DE6987 !important;
+}
+.btn-upcoming {
+    color: #fff !important;
+    background: #8CBD4C !important;
+}
+.rbc-toolbar {
+    margin-bottom: 15px;
+}
+.rbc-toolbar .rbc-toolbar-label {
+    font-size: 20px;
+    color: #333;
+}
+.rbc-header {
+    padding: 4px 10px;
+    text-align: left;
+    font-weight: normal;
+    border-bottom: 1px solid #DDD;
+
+}
+.rbc-month-row {
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex: 100px;
+    flex: 100px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+.rbc-event {
+    border-radius: 3px;
+}
+.rbc-show-more {
+    font-weight: normal;
+}
+.rbc-off-range-bg {
+    background: #F8F8F8;
+}
+.rbc-date-cell {
+    color: #444 !important;
+}
+.rbc-off-range {
+    color: #777 !important;
+}
